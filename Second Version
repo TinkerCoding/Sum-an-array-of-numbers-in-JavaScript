@@ -1,0 +1,18 @@
+const updateBlock = (value) => {
+
+};
+
+const numbers = [
+  1, 45, 435, 45, 33, 22, 13, 34, 40, 87, 72,  
+];
+
+
+
+const sumArrayOfNumbers = (numbersArray) => 
+numbersArray.reduce(
+      (accumulator, number) =>
+        number + accumulator,
+       0
+    );
+updateBlock(sumArrayOfNumbers(numbers));
+
